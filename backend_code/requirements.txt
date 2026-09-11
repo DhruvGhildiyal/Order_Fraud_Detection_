@@ -1,0 +1,15 @@
+# Web framework and the server that runs it
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.0
+
+# Model + data. scikit-learn is pinned to the version the model was TRAINED with:
+# a pickled model loaded under a different sklearn version can behave differently.
+# If your bundle was saved with another version, GET /health shows it - change this line.
+scikit-learn==1.9.0
+pandas>=2.0
+numpy>=1.26
+joblib>=1.3
+
+# Only needed for test_request.py
+requests>=2.31
