@@ -1,4 +1,4 @@
-# E-Commerce Order Fraud Detection
+# Order Fraud Detection
  
 A portfolio project that detects fake orders, return abuse, and multi-account fraud
 rings on synthetic e-commerce order data — combining rule-based methods (IQR),
